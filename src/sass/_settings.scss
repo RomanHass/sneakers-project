@@ -1,0 +1,67 @@
+// Главный файл для стилизации всех основных элементов страницы
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p, 
+ul {
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: inherit
+}
+
+.btn-reset {
+  border: none;
+  padding: 0;
+  background: transparent;
+  cursor: pointer;
+}
+
+// Чтобы оставить элемент доступным, но при этом визуально спрятать
+.visually-hidden {
+  position: fixed;
+  transform: scale(0);
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+}
+
+body {
+  overflow-anchor: none;
+  font-family: 'Arial', sans-serif;
+  font-weight: 400;
+  color: #000;
+  background-color: #fff;
+}
+
+.site-container {
+  overflow: hidden;
+}
+
+.container {
+  margin: 0 auto;
+  // padding: 0;
+}
