@@ -10,6 +10,10 @@
 
 
 // Компоненты основных блоков
-// @import './block/header';
+@import './components/header';
+@import './components/hero';
 
 // Компоненты маленьких блоков
+@import './components/nav';
+@import './components/cart';
+@import './components/logo';

@@ -14,7 +14,7 @@ import groupCssMediaQueries from 'gulp-group-css-media-queries';
 import gulpSass from 'gulp-sass';
 import dartSass from 'sass';
 import webpCssFixed from 'gulp-webp-css-fixed';
-import shorthand from 'gulp-shorthand';
+// import shorthand from 'gulp-shorthand';
 
 const sass = gulpSass(dartSass);
 
@@ -31,7 +31,7 @@ export default () => {
     .pipe(webpCssFixed())
     .pipe(autoprefixer())
     .pipe(groupCssMediaQueries())
-    .pipe(shorthand())
+    // .pipe(shorthand())
     .pipe(gulp.dest(path.scss.dest, {sourcemaps: app.isDev}))
     .pipe(rename(app.rename))
     .pipe(csso())

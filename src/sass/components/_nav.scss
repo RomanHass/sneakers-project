@@ -1,0 +1,17 @@
+.nav {
+  &__list {
+    display: flex;
+    align-items: center;
+  }
+
+  &__item {
+    &:not(:last-child) {
+      margin-right: var(--main-offset);
+    }
+  }
+  
+  &__link {
+    font: var(--small-font);
+    color: var(--color-white);
+  }
+}

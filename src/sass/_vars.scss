@@ -1,1 +1,18 @@
 // Переменные
+:root {
+  // Цвета
+  --color-black: #000;
+  --color-white: #fff;
+  --color-eastbay: #484283;
+  --color-accent: #f14f4f;
+
+  // Отступы
+  --grid-gap: 20px;
+  --main-offset: 40px;
+
+  // Шрифты
+  --font-family: 'Intro-Regular', sans-serif;
+  --middle-high-font: 700 30px / 140% var(--font-family);
+  --small-font: 400 14px / 140% var(--font-family);
+}
+
