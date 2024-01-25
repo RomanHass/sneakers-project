@@ -5,14 +5,19 @@
   --color-white: #fff;
   --color-eastbay: #484283;
   --color-accent: #f14f4f;
+  --color-accent-hover: #cc4949;
+  --color-border: rgba(255, 255, 255, 0.50);
 
   // Отступы
   --grid-gap: 20px;
   --main-offset: 40px;
+  --second-offset: 20px;
 
   // Шрифты
   --font-family: 'Intro-Regular', sans-serif;
   --middle-high-font: 700 30px / 140% var(--font-family);
+  --middle-font: 400 16px / 140% var(--font-family);
+  --middle-font-sm: 600 16px / 140% var(--font-family);
   --small-font: 400 14px / 140% var(--font-family);
 }
 
